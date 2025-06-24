@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="sammy.html" style=">
+      <h1 style="color: red">Boi Data</h1>
+      <label style="color: blue" for="username">username: </label>
+      <input
+        type="text"
+        placeholder="enter username"
+        name="username"
+        required
+        style="color: red"
+      />
+      <br />
+      <label for="password">password</label>
+      <input
+        type="password"
+        placeholder="enter password"
+        name="password"
+        required
+      />
+      <br />
+      <label for="file">file</label>
+      <input type="file" name="file" required />
+      <br />
+      <label for="date">date</label>
+      <input type="date" name="date" required />
+      <br />
+      <label for="time">time</label>
+      <input type="time" name="time" required />
+      <br />
+      <label for="datetime">datetime</label>
+      <input
+        type="datetime"
+        placeholder="enter time/date"
+        name="datetime"
+        required
+      />
+      <br />
+      <label for="email">email</label>
+      <input type="email" name="email" placeholder="enter email" required />
+      <br />
+      <label for="number">number</label>
+      <input type="number" name="number" min="2" max="30" />
+      <br />
+      <input type="checkbox" name="remember" id="remember" />
+      <label for="remember">Remember me</label>
+      <select>
+        <option disabled selected>Select a drink</option>
+        <option value="fanta">fanta</option>
+        <option value="sprite">sprite</option>
+        <option value="coke">coke</option>
+        <option value="pepsi">pepsi</option></select
+      ><br />
+      <textarea placeholder="enter description" cols="40" rows="10"></textarea
+      ><br />
+      <input type="submit" value="login" />
+    </form>
+    <video
+      src="videoplayback.mp4"
+      autoplay
+      loop
+      controls
+      muted
+      width="300"
+      height="400"
+    ></video>
+    <audio src="videoplayback.mp4" controls loop></audio>
+  </body>
+</html>

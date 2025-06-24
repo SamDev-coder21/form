@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background:url(images/bg.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid;
+        height: 100vh;
+        color: whitesmoke;
+      }
+      input {
+        display: block;
+        border: none;
+        padding: 15px 25px;
+        border-radius: 10px;
+        background:#ec4f8b29 ;
+        width: 100%;
+      }
+      div {
+        width: 300px;
+        /* border: 1px solid black; */
+        padding: 10px 20px;
+      }
+      h1 {
+        text-align: center;
+        color: #dc0155;
+      }
+      #button {
+        padding: 10px 40px;
+        border-radius: 50px;
+        border: none;
+        font-weight: bolder;
+        cursor: pointer;
+        background-color: #dc0155;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Login</h1>
+      <form action="page.html">
+        <label for="username">Username:</label>
+        <input type="text" name="name" id="" required placeholder="enter your username"/>
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" name="" id="" required placeholder="enter your password"/>
+        <br />
+        <input id="button" type="submit" name="" value="Login" />
+      </form>
+    </div>
+  </body>
+</html>

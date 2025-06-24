@@ -1,0 +1,73 @@
+body{
+  /* background: red; */
+}
+
+h1{
+      background-color: blue;
+      color: pink;
+    }
+    .head{
+      font-size:3rem ;
+    }
+    .first-name{
+      color: blue;
+    }
+    #head{
+      text-align: right;
+    }
+    #text{
+      color: blue;
+      background-color: brown;
+    }
+    #sex{
+      color: blue;
+    }
+    #state{
+      color: blue;
+    }
+    #botton{
+      background-color: blue;
+      color: #f89dea;
+    }
+    #email{
+      color: blue;
+    }
+    #nationality{
+      color: blue;
+    }
+    .local{
+      color: blue;
+    }
+    #exam{
+      color: blue;
+    }
+    .address{
+      color: blue;
+    }
+    #data{
+      color: blue;
+    }
+    #first{
+      color: blue;
+    }
+    #middle-name{
+      color: blue;
+    }
+    div{
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      margin: 50px;
+    }
+    .text1{
+      background-color: blue;
+      color: white;
+      width: fit-content;
+      padding: 20px;
+    }
+    .come{
+      color: white;
+      width: fit-content;
+      background-color: blue;
+      padding: 40px;
+    }
