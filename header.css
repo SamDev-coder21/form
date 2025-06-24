@@ -354,8 +354,8 @@ body {
   background-size: cover;
 }
 .shows:nth-child(4) {
-  background: linear-gradient(200deg, #190e0fc6, #190e0f),
-    url("images/crime.jpg.crdownload");
+  background: linear-gradient(200deg, #190e0f74, #190e0fec),
+    url("images/big-4.jpg");
   background-size: cover;
 }
 .shows h3 {
